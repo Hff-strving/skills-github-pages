@@ -6,9 +6,9 @@ description: 欢迎来到我的个人博客，这里分享我的技术学习和�
 
 # 博客作者
 author:
-  name: [Hff-strving]
-  email: [2130634951@qq.com]
-  url: [https://hff-strving.github.io/skills-github-pages/]
+  name: Hff-strving
+  email: 2130634951@qq.com
+  url: https://hff-strving.github.io/skills-github-pages/
 
 # 博客主题（如果使用 Jekyll 主题）
 theme: minima
