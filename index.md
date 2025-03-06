@@ -12,7 +12,7 @@ description: 欢迎来到我的个人博客，这里分享我的技术学习和�
 
 - **姓名**: [Hff-strving]
 - **职业**: [学生]
-- **兴趣**: [leetcode,写日志，乒乓球]
+- **兴趣**: [csdn,leetcode,ping-pong,runing]
 
 ---
 
