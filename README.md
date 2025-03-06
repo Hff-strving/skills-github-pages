@@ -1,51 +1,66 @@
 <header>
 
 <!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
+  <<< Author notes: Personal README header >>>
+  包含一个横幅图片、标题和简短的介绍。
 -->
 
-# GitHub Pages
+# 我的 GitHub 博客
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+_一个使用 GitHub Pages 搭建的个人博客。_
 
 </header>
 
-<!--
-  <<< Author notes: Step 3 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: previous version checked the homepage content was not empty.
--->
+---
 
-## Step 3: Customize your homepage
+## 🏠 欢迎来到我的博客
 
-_Nice work setting the theme! :sparkles:_
+👋 你好！这是我的个人博客，使用 **GitHub Pages** 搭建。在这里，我会分享我的想法、项目和学习历程。
 
-You can customize your homepage by adding content to either an `index.md` file or the `README.md` file. GitHub Pages first looks for an `index.md` file. Your repository has an `index.md` file so we can update it to include your personalized content.
+欢迎随意浏览并留下反馈！😊
 
-### :keyboard: Activity: Create your homepage
+---
 
-1. Browse to the `index.md` file in the `my-pages` branch.
-1. In the upper right corner, open the file editor.
-1. Type the content you want on your homepage. You can use Markdown formatting on this page.
-1. (optional) You can also modify `title:` or just ignore it for now. We'll discuss it in the next step.
-1. Commit your changes to the `my-pages` branch.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+## 🚀 关于我
+
+- **👤 姓名:** _[Hff-strving]_  
+- **📍 所在地:** _[中国，上海]_  
+- **🎓 背景:** _[软件工程]_  
+
+---
+
+## 📜 博客分类
+
+🔹 **技术与编程**: 关于软件开发、编程项目和技巧的文章。  
+🔹 **个人成长**: 我的学习经验和反思。  
+🔹 **其他话题**: 任何我想分享的有趣内容！
+
+---
+
+## 🛠 如何贡献
+
+如果你觉得我的博客有用并想贡献：
+
+1. Fork 这个仓库 🍴
+2. 克隆到你的本地机器 🖥️
+3. 做出修改并提交 Pull Request ✅
+
+---
+
+## 🔗 有用的链接
+
+- 🌍 **博客地址**: [点击访问](https://hff-strving.github.io/skills-github-pages/)  
+- 📂 **GitHub 仓库**: [查看仓库](https://github.com/Hff-strving/skills-github-pages)  
 
 <footer>
 
 <!--
   <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
+  添加版权信息、GitHub 状态和其他链接。
 -->
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2025 [Hff-strving] • 托管于 GitHub Pages • [MIT 许可证](https://opensource.org/licenses/MIT)
 
 </footer>
