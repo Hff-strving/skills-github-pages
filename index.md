@@ -8,6 +8,16 @@ description: 欢迎来到我的个人博客，这里分享我的技术学习和�
 
 你好！这是我的个人博客，使用 GitHub Pages 和 Jekyll 搭建。我会在这里分享我的技术学习、项目经验和生活感悟。
 
+---
+
+## 最新文章
+
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
+{% endfor %}
+
+---
+
 ## 关于我
 
 - **姓名**: [Hff-strving]
