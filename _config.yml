@@ -36,3 +36,7 @@ collections:
 
 # 时区
 timezone: Asia/Shanghai
+
+# 引入自定义 CSS
+stylesheets:
+  - /assets/css/style.css
