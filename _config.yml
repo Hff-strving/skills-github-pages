@@ -1,1 +1,42 @@
+# 博客标题
+title: 我的个人博客
+
+# 博客描述
+description: 欢迎来到我的个人博客，这里分享我的技术学习和生活感悟。
+
+# 博客作者
+author:
+  name: [Hff-strving]
+  email: [2130634951@qq.com]
+  url: [https://hff-strving.github.io/skills-github-pages/]
+
+# 博客主题（如果使用 Jekyll 主题）
 theme: minima
+
+# 插件
+plugins:
+  - jekyll-feed
+
+# 默认布局
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# 分页
+paginate: 5
+paginate_path: "/page:num/"
+
+# 分类
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title.html
+
+# 时区
+timezone: Asia/Shanghai
+
+# 引入自定义 CSS
+stylesheets:
+  - /assets/css/style.css
