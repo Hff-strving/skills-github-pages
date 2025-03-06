@@ -13,7 +13,7 @@ description: 欢迎来到我的个人博客，这里分享我的技术学习和�
 ## 最新文章
 
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
+- [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
 {% endfor %}
 
 ---
@@ -36,4 +36,4 @@ description: 欢迎来到我的个人博客，这里分享我的技术学习和�
 
 ## 友情链接
 
-- [GitHub](https://github.com/Hff-strving/skills-github-pages)
+- [GitHub]({{ site.baseurl }}/)
