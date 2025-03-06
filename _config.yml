@@ -40,3 +40,9 @@ timezone: Asia/Shanghai
 # 引入自定义 CSS
 stylesheets:
   - /assets/css/style.css
+
+# 博客的根 URL
+url: "https://hff-strving.github.io"
+
+# 博客的子路径
+baseurl: "/skills-github-pages"
