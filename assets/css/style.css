@@ -1,100 +1,101 @@
-/* 全局样式 */
+/* 通用样式 */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+a {
+  color: #007bff;
+  text-decoration: none;
 }
 
-/* 标题样式 */
-h1, h2, h3 {
-    color: #333;
+a:hover {
+  text-decoration: underline;
 }
 
-h1 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 20px;
+/* 头部样式 */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-h2 {
-    border-bottom: 2px solid #0073e6;
-    padding-bottom: 5px;
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
 }
 
-/* 博客分类 */
-.blog-category {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+.header p {
+  font-size: 1.2em;
+  color: #666;
 }
 
-.blog-category a {
-    text-decoration: none;
-    background: #0073e6;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: 0.3s;
+/* 分类样式 */
+.categories {
+  margin-bottom: 40px;
 }
 
-.blog-category a:hover {
-    background: #005bb5;
+.category {
+  margin-bottom: 30px;
 }
 
-/* 文章列表 */
-.post-list {
-    list-style: none;
-    padding: 0;
+.category h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #444;
 }
 
-.post-list li {
-    background: #f9f9f9;
-    margin: 10px 0;
-    padding: 10px;
-    border-left: 5px solid #0073e6;
-    border-radius: 5px;
-    transition: 0.3s;
+.category ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.post-list li:hover {
-    background: #eef;
+.category li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
 }
 
-.post-list a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #0073e6;
+/* 关于我样式 */
+.about-me {
+  margin-bottom: 40px;
 }
 
-/* 友情链接 */
+.about-me h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.about-me ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-me li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+/* 友情链接样式 */
 .links {
-    margin-top: 20px;
-    text-align: center;
+  margin-bottom: 40px;
 }
 
-.links a {
-    display: inline-block;
-    text-decoration: none;
-    background: #0073e6;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    margin: 5px;
-    transition: 0.3s;
+.links h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #444;
 }
 
-.links a:hover {
-    background: #005bb5;
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
 }
