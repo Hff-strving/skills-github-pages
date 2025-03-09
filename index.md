@@ -10,21 +10,31 @@ description: 欢迎来到我的个人博客，这里分享我的技术学习和�
 
 你好！这是我的个人博客，使用 GitHub Pages 和 Jekyll 搭建。我会在这里分享我的技术学习、项目经验和生活感悟。
 
----
+<div class="container">
+    <!-- LeetCode 题解 -->
+    <div class="left-column">
+        <h2>📌 LeetCode 题解</h2>
+        <ul>
+            {% for post in site.categories.leetcode %}
+            <li>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 
-## 📝 博客分类
-
-### 📌 LeetCode 题解
-{% for post in site.categories.leetcode %}
-- [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
-{% endfor %}
-
-### 🌟 日常分享
-{% for post in site.categories.daily %}
-- [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
-{% endfor %}
-
----
+    <!-- 日常分享 -->
+    <div class="right-column">
+        <h2>🌟 日常分享</h2>
+        <ul>
+            {% for post in site.categories.daily %}
+            <li>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
 
 ## 🙋 关于我
 
