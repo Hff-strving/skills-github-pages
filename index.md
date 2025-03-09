@@ -10,30 +10,29 @@ description: 欢迎来到我的个人博客，这里分享我的技术学习和�
 
 ---
 
-## 最新文章
+## 📝 博客分类
 
-{% for post in site.posts %}
-- [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
+### 📌 LeetCode 题解
+{% for post in site.categories.leetcode %}
+- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
+{% endfor %}
+
+### 🌟 日常分享
+{% for post in site.categories.daily %}
+- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
 {% endfor %}
 
 ---
 
-## 关于我
+## 🙋 关于我
 
-- **姓名**: [Hff-strving]
-- **职业**: [学生]
-- **兴趣**: [csdn,leetcode,ping-pong,runing]
-
----
-
-## 博客分类
-
-- [技术](#)
-- [生活](#)
-- [学习](#)
+- **姓名**: Hff-strving
+- **职业**: 学生
+- **兴趣**: CSDN, LeetCode, 乒乓球, 跑步
 
 ---
 
-## 友情链接
+## 🔗 友情链接
 
-- [GitHub]({{ site.baseurl }}/)
+- [GitHub](https://github.com/hff-strving)
+- [CSDN](https://blog.csdn.net/2303_82270449?spm=1010.2135.3001.5421)
