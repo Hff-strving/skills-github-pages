@@ -1,3 +1,10 @@
+---
+layout: post
+title: "我的第一篇文章"
+date: 2025-03-09
+categories: daily
+---
+
 # Markdown基本语法
 
 ## Markdown简介
