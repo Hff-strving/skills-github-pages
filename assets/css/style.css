@@ -1,101 +1,165 @@
-/* 通用样式 */
+/* 基本重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 20px;
-  background-color: #f9f9f9;
-  color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    padding-top: 30px;
 }
 
-a {
-  color: #007bff;
-  text-decoration: none;
+h1, h2 {
+    color: #2c3e50;
 }
 
-a:hover {
-  text-decoration: underline;
+h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
 }
 
-/* 头部样式 */
-.header {
-  text-align: center;
-  margin-bottom: 40px;
+/* 主页布局 */
+.hero {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-.header h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
-.header p {
-  font-size: 1.2em;
-  color: #666;
+.hero p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
 }
 
-/* 分类样式 */
-.categories {
-  margin-bottom: 40px;
+/* 博客分类 */
+.blog-category {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 800px;
 }
 
-.category {
-  margin-bottom: 30px;
+.category-list {
+    list-style: none;
 }
 
-.category h3 {
-  font-size: 1.8em;
-  margin-bottom: 15px;
-  color: #444;
+.category-list li {
+    margin: 10px 0;
 }
 
-.category ul {
-  list-style-type: none;
-  padding: 0;
+.category-list a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
 }
 
-.category li {
-  margin-bottom: 10px;
-  font-size: 1.1em;
+.category-icon {
+    margin-right: 10px;
 }
 
-/* 关于我样式 */
-.about-me {
-  margin-bottom: 40px;
+/* 文章部分 */
+.post-list {
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
 }
 
-.about-me h2 {
-  font-size: 2em;
-  margin-bottom: 15px;
-  color: #444;
+.post-list ul {
+    list-style: none;
 }
 
-.about-me ul {
-  list-style-type: none;
-  padding: 0;
+.post-list li {
+    margin-bottom: 10px;
 }
 
-.about-me li {
-  margin-bottom: 10px;
-  font-size: 1.1em;
+.post-list a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: 1.1rem;
 }
 
-/* 友情链接样式 */
-.links {
-  margin-bottom: 40px;
+/* 双栏布局 */
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 20px;
 }
 
-.links h2 {
-  font-size: 2em;
-  margin-bottom: 15px;
-  color: #444;
+.left-column, .right-column {
+    width: 48%;
 }
 
-.links ul {
-  list-style-type: none;
-  padding: 0;
+.left-column {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-.links li {
-  margin-bottom: 10px;
-  font-size: 1.1em;
+.right-column {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* 侧边栏 */
+.about, .friend-links {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+.about p, .friend-links ul {
+    font-size: 1rem;
+}
+
+.friend-links ul {
+    list-style: none;
+}
+
+.friend-links li {
+    margin-bottom: 10px;
+}
+
+.friend-links a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-column, .right-column {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
