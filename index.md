@@ -16,12 +16,12 @@ description: 欢迎来到我的个人博客，这里分享我的技术学习和�
 
 ### 📌 LeetCode 题解
 {% for post in site.categories.leetcode %}
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
+- [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
 {% endfor %}
 
 ### 🌟 日常分享
 {% for post in site.categories.daily %}
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
+- [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
 {% endfor %}
 
 ---
