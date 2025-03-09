@@ -2,7 +2,7 @@
 layout: post
 title: "我的第一篇文章"
 date: 2025-03-06
-categories: [技术, 学习]
+categories: daily
 ---
 
 这是我的第一篇文章内容。
