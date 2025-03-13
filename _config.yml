@@ -1,15 +1,23 @@
 # 博客标题
 title: FanFan's blog
 
-# 博客描述
-description: 欢迎来到我的个人博客，这里分享我的技术学习和生活感悟。
+# 博客描述 (增加更详细的描述)
+description: 欢迎来到我的技术博客！这里记录我的编程学习之路，分享LeetCode解题思路，以及生活感悟。作为一名学生，我希望通过博客来记录成长，也希望能帮助到其他学习编程的朋友。
 
-# 博客主题（如果使用 Jekyll 主题）
+# 作者信息
+author:
+  name: Hff-strving
+  email: your-email@example.com
+
+# 博客主题
 theme: minima
 
-# 插件
+# 增加更多有用的插件
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
 
 # 默认布局
 defaults:
@@ -17,26 +25,41 @@ defaults:
       path: ""
     values:
       layout: default
+      author: Hff-strving
 
-# 分页
-paginate: 5
+# 分页设置
+paginate: 6
 paginate_path: "/page:num/"
 
-# 分类
+# 文章集合设置
 collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:title.html
 
-# 时区
+# 时区设置
 timezone: Asia/Shanghai
 
-# 引入自定义 CSS
+# 自定义CSS
 stylesheets:
   - /assets/css/style.css
 
-# 博客的根 URL
+# 站点URL设置
 url: "https://hff-strving.github.io"
-
-# 博客的子路径
 baseurl: "/skills-github-pages"
+
+# 社交媒体链接
+social:
+  github: hff-strving
+  csdn: "2303_82270449"
+
+# SEO优化设置
+lang: zh-CN
+google_analytics: # 你的Google Analytics跟踪ID
+
+# 评论系统设置
+comments:
+  provider: giscus # GitHub Discussions 驱动的评论系统
+
+# 搜索功能
+search: true
